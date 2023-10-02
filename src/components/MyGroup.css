@@ -1,0 +1,32 @@
+.title-Grid {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    &:hover {
+        background-color: "#f5f5f5";
+    }
+}
+
+.description-Grid {
+    
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    max-height: 12vh;
+    text-align: left;
+}
+
+.icons-buttom-grid {
+    margin: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    width: 100%;
+    padding-right: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center,
+}
