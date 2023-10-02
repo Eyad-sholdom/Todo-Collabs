@@ -1,0 +1,33 @@
+.group-item-grid {
+  width: 20%;
+  height: 25%;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  border-radius: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgb(46, 46, 46);
+  overflow: scroll;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgb(46, 46, 46);
+  }
+}
+
+.create-buttons-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.create-group-IconeButton {
+  width: 55px;
+  height: 55px;
+  box-shadow: 0px 15px 6px rgba(132, 132, 132, 0.2);
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 10px 12px 8px rgba(0, 0, 0, 0.4);
+  }
+}
